@@ -2,14 +2,12 @@ namespace learningCSharpFundamentals.stringOps
 {
     public class StringsFundamentals
     {
-        public void StringOperations()
+        public void StringOperations(string firstName, string lastName)
         {
-            string firstName = "John";
-            string lastName = "Doe";
             string fullName = firstName + " " + lastName;
             Console.WriteLine(fullName);
 
-            string fullName2 = string.Format("2.0 => My name is {0} {1}", firstName, lastName);
+            string fullName2 = string.Format(" My name is {0} {1}", firstName, lastName);
             Console.WriteLine(fullName2);
 
             string fullName3 = $"My name is {firstName} {lastName}";

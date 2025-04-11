@@ -2,10 +2,7 @@ namespace learningCSharpFundamentals.classes
 {
     public class Person
     {
-        public string firstName;
-        public string lastName;
-
-        public void Introduce()
+        public void Introduce(string firstName, string lastName)
         {
             System.Console.WriteLine("My name is " + firstName + " " + lastName);
         }
